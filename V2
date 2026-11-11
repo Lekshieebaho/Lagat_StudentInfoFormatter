@@ -1,0 +1,15 @@
+name = input("Enter first name: ")
+lname = input("Enter last name: ")
+section = input("Enter section: ")
+fsubject = input("Enter favorite subject: ")
+
+ncount = len(name)
+lcount = len(lname)
+Fcount = ncount + lcount
+
+print("\nFormatted Output:")
+print(f"Name: {name.title()} {lname.title()}")
+print(f"Name Code: {name.upper()} {lname.upper()}")
+print(f"Section: {section.upper()}")
+print(f"Favorite Subject: {fsubject.title()}")
+print(f"Character Count: {Fcount}")
